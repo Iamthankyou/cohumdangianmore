@@ -1,7 +1,7 @@
 I. Cơ sở đề tài:
 
 Trong xã hội hiện đại có nhiều hình thức giải trí khác nhau, phổ biến nhất với giới trẻ là thể thao điện tử, không tìm thấy trên Internet những trò chơi dân 
-gian ngày xưa, nhóm em quyết định làm lại trò chơi Cờ Hùm Ăn Tôm phiên bản có thể chơi được trên các loại máy tính.
+gian ngày xưa, em quyết định làm lại trò chơi Cờ Hùm Ăn Tôm phiên bản có thể chơi được trên các loại máy tính.
 
 II. Ngôn ngữ sử dụng:
 
