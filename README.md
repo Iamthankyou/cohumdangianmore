@@ -26,58 +26,24 @@ Trong tương lai có thể mở rộng thêm chế độ chơi online giữa ha
 3. Mô tả màn hình hiển thị trò chơi:
 
 3.1 Màn hình khi mở trò chơi là màn hình chọn chế độ chơi:
-[Màn hình bắt đầu](https://github.com/Iamthankyou/cohumdangianmore/blob/master/Image/01.png?raw=true)
+![](https://github.com/Iamthankyou/cohumdangianmore/blob/master/Image/01.png?raw=true)
 
 3.2 Tiếp theo là màn hình chọn quân điều khiển:
 
-[Màn hình bắt đầu](https://github.com/Iamthankyou/cohumdangianmore/blob/master/Image/02.png?raw=true)
+![](https://github.com/Iamthankyou/cohumdangianmore/blob/master/Image/02.png?raw=true)
 
 3.3. Màn hình chính hiển thị trò chơi:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](https://github.com/Iamthankyou/cohumdangianmore/blob/master/Image/03.png?raw=true)
 
 3.4. Và màn hình kết thúc trò chơi:
 
+
+
+
+![](https://github.com/Iamthankyou/cohumdangianmore/blob/master/Image/04.png?raw=true)
 
 
 
@@ -122,7 +88,7 @@ Tối ưu reponsive.
 IV. Thiết kế trò chơi:
 Với game Cờ Hùm Dân Gian phiên bản offline, nhóm em triển khai theo mô hình lập trình hướng đối tượng OOP. Gồm 41 class phân chia thành từng tầng và nhiệm vụ khác nhau. 
 
-
+![](https://github.com/Iamthankyou/cohumdangianmore/blob/master/Image/05.png?raw=true)
 
 
 
@@ -131,20 +97,20 @@ Với game Cờ Hùm Dân Gian phiên bản offline, nhóm em triển khai theo 
 
 1.Tư tưởng chính để thiết kế hệ thống: Design Pattern
 Mô hình chính trong hệ thống để hiển thị và xử lý trò chơi là MVC, áp dụng Obserse Pattern, MVC Pattern và Singleton Pattern.
-
+![](https://github.com/Iamthankyou/cohumdangianmore/blob/master/Image/06.png?raw=true)
 
 Controller có nhiệm vụ xử lý và request mapping đến View. Khi Model thay đổi, ngay lập tức được thông báo để cập nhật lại view.
 
 Cài đặt Observable dựa trên khóa Design Pattern Coursera:
 
+![](https://github.com/Iamthankyou/cohumdangianmore/blob/master/Image/07.png?raw=true)
 
 Model sẽ extends Observable, add Observer là View, còn View sẽ implement Observer chỉ có một phương thức duy nhất là update() lại phần hiển thị, nếu muốn phần nào được cập nhật lại trong dữ liệu chính, chỉ cầ
 n thêm phương thức notifier() thông báo choObesrvable.
 
 2. Để tránh khởi tạo nhầm hay khởi tạo lại class Model trong trò chơi của bọn em là ElementsManager, bọn em dùng Singleton Pattern để ngăn chặn gọi hàm khởi tạo trực tiếp từ bên ngoài, và chỉ cho phép khởi tạo lại khi cần thiết.
 
-
- 
+![](https://github.com/Iamthankyou/cohumdangianmore/blob/master/Image/08.png?raw=true)
 
 
 
@@ -161,6 +127,8 @@ n thêm phương thức notifier() thông báo choObesrvable.
 3. Tổng quan kiến trúc Trò chơi:
 
 Mô hình Model-Controller-View là nền tảng:
+![](https://github.com/Iamthankyou/cohumdangianmore/blob/master/Image/09.png?raw=true)
+
 
 
 
@@ -182,17 +150,21 @@ Mô hình Model-Controller-View là nền tảng:
 
 
 Đây là tầng dữ liệu động của trò chơi:
+![](https://github.com/Iamthankyou/cohumdangianmore/blob/master/Image/10.png?raw=true)
 
 
 
 
 
 Đây là tầng hiển thị trò chơi, button save và open chỉ đươc gọi khi cần thiết.
+![](https://github.com/Iamthankyou/cohumdangianmore/blob/master/Image/11.png?raw=true)
 
 
 
 
 Đây là tầng DAO, có nhiệm vụ giao tiếp với cơ sở dữ liệu.
+![](https://github.com/Iamthankyou/cohumdangianmore/blob/master/Image/12.png?raw=true)
+
 
 
 
@@ -219,12 +191,6 @@ Chế độ chơi với Âmáy sử dụng thuật toán Minimax để tìm ki�
 
 Xin chân thành cảm ơn !
 
-![Màn hình bắt đầu](https://github.com/Iamthankyou/cohumdangian/blob/master/ImageDemo/Screenshot%20(70).png?raw=true)
 
-![Màn hình bắt đầu](https://github.com/Iamthankyou/cohumdangian/blob/master/ImageDemo/Screenshot%20(71).png?raw=true)
-
-![Màn hình bắt đầu](https://github.com/Iamthankyou/cohumdangian/blob/master/ImageDemo/Screenshot%20(72).png?raw=true)
-
-![Màn hình bắt đầu](https://github.com/Iamthankyou/cohumdangian/blob/master/ImageDemo/Screenshot%20(73).png?raw=true)
 
 Cảm ơn !
