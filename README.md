@@ -86,7 +86,7 @@ Tối ưu reponsive.
 
 
 IV. Thiết kế trò chơi:
-Với game Cờ Hùm Dân Gian phiên bản offline, nhóm em triển khai theo mô hình lập trình hướng đối tượng OOP. Gồm 41 class phân chia thành từng tầng và nhiệm vụ khác nhau. 
+Với game Cờ Hùm Dân Gian phiên bản offline, em triển khai theo mô hình lập trình hướng đối tượng OOP. Gồm 41 class phân chia thành từng tầng và nhiệm vụ khác nhau. 
 
 ![](https://github.com/Iamthankyou/cohumdangianmore/blob/master/Image/05.png?raw=true)
 
